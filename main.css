@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  /* font-size: 18px; */
+}
+
+h2 {
+  font-family: "Fraunces", serif;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+header {
+  min-height: 55vh;
+  background-image: url("./images/desktop/image-header.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+/* nav li {
+  display: inline;
+} */
+
+/* li {
+  margin-right: 15px;
+} */
+/* .logo {
+  display: inline;
+  text-align: left;
+}
+
+nav {
+  text-align: right;
+}
+nav li {
+  display: inline;
+} */
+
+.hero {
+  text-align: center;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  letter-spacing: 3px;
+  /* font-size: 3rem; */
+  margin-top: 4.5rem;
+  text-transform: uppercase;
+}
+
+.icon-arrow-down-wrapper {
+  margin-top: 4.5rem;
+}
+
+.icon-arrow-down-wrapper img {
+  height: 90px;
+}
+
+.about-wrapper {
+  display: flex;
+}
+
+.about-content {
+  width: 50%;
+  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-inline: 5rem;
+}
+
+.about-content h2,
+.about-content a {
+  color: hsl(212, 27%, 19%);
+}
+
+.about-content h2 {
+  font-size: 2.25rem;
+  line-height: 1.25;
+}
+
+.about-content p {
+  color: hsl(232, 10%, 55%);
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+.about-content a {
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.9rem;
+  border-bottom: 4px solid hsl(51, 100%, 49%);
+  margin-top: 2.5rem;
+}
+
+.about-image {
+  width: 50%;
+  /* flex: 1; */
+}
+
+.about-image img {
+  width: 100%;
+  display: block;
+}
+
+.services {
+  display: flex;
+}
+
+.services .service {
+  padding: 4rem;
+  padding-top: 24rem;
+  background-size: cover;
+  background-position: center;
+  font-size: 1rem;
+  text-align: center;
+  width: 50%;
+}
+
+.service h2 {
+  font-size: 1.35rem;
+}
+
+.services p {
+  margin-top: 1.5rem;
+  line-height: 1.5;
+  max-width: 400px;
+  margin-inline: auto;
+}
+.services .graphic-design {
+  color: hsl(167, 40%, 24%);
+  background-image: url("./images/desktop/image-graphic-design.jpg");
+}
+
+.services .photography {
+  color: hsl(198, 62%, 26%);
+  background-image: url("./images/desktop/image-photography.jpg");
+}
+
+/* Testimonials Styles */
+.testimonials {
+  padding: 5rem 4rem;
+}
+
+.testimonials h2 {
+  color: hsl(210, 4%, 67%);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.testimonials-wrapper {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin-inline: auto;
+  margin-top: 1.5rem;
+}
+
+.testimonials-wrapper .testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 2rem 1.5rem;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.testimonial-text {
+  color: hsl(232, 10%, 55%);
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+.testimonial-author-wrapper {
+  margin-top: 2rem;
+}
+
+.testimonial-author-wrapper .author {
+  font-family: "Fraunces", serif;
+  color: hsl(212, 27%, 19%);
+}
+
+.testimonial-author-wrapper .designation {
+  color: hsl(210, 4%, 67%);
+  font-size: 0.9rem;
+}
+
+.gallery {
+  display: flex;
+}
+
+.gallery > .gallery-image-wrapper {
+  /* width: 25%; */
+  width: calc(100% / 4);
+}
+
+.gallery-image-wrapper > img {
+  display: block;
+  width: 100%;
+}
+
+footer {
+  padding: 3rem 2rem;
+  background-color: hsl(168, 58%, 68%);
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.secondary-nav {
+  margin-block: 2rem;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: hsl(167, 40%, 24%);
+  font-size: 0.9rem;
+}
