@@ -262,3 +262,22 @@ footer ul li a {
   color: hsl(167, 40%, 24%);
   font-size: 0.9rem;
 }
+
+/* Responsive Design */
+
+@media screen and (max-width: 1090px) {
+  .testimonials-wrapper {
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* margin: auto; */
+    border: 1px solid gray;
+    text-align: center;
+  }
+  .testimonial img {
+    display: inline;
+    text-align: center;
+  }
+  .testimonials-wrapper .testimonial  {
+    border: 1px solid blue;
+  }
+}
